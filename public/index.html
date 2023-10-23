@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Page Uploader</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div>
+        <input type="file" id="fileInput" accept=".html" />
+        <input type="text" id="pageTitle" placeholder="Page Name" />
+        <button onclick="uploadPage()">Upload</button>
+    </div>
+    <div id="tabContainer">
+        <!-- Tabs for uploaded pages will be displayed here -->
+    </div>
+    <div id="pageContent">
+        <!-- Content of the selected page will be displayed here -->
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
